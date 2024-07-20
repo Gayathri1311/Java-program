@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class main
+{
+public static void main(String args[])
+{
+Scanner scanner=new Scanner(System.in);
+long s1=scanner.nextLong();
+long s2=scanner.nextLong();
+long s3=scanner.nextInt();
+if((s1+s2)>s3&&(s1+s3)>s2&&(s2+s3)>s1)
+{
+System.out.println("valid");
+}
+else
+{
+System.out.println("Not valid");
+}
+}
+}
